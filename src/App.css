@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-/* Estilos generales */
+
 * {
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -9,7 +9,7 @@
 }
 
 body {
-  background: #e6e6e6; /* Fondo gris claro */
+  background: #e6e6e6;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,20 +20,20 @@ body {
 }
 
 h1 {
-  color: #333; /* Texto gris oscuro */
+  color: #333; 
   margin-bottom: 0.5rem;
   font-size: 1.75rem;
 }
 
-/* Estilos para el contenedor de tareas */
+
 .TodoWrapper {
-  background: #f0f0f0; /* Fondo gris */
+  background: #f0f0f0;
   margin-top: 5rem;
   padding: 2rem;
   border-radius: 5px;
 }
 
-/* Estilos para el formulario */
+
 .TodoForm {
   width: 100%;
   margin-bottom: 1rem;
@@ -42,33 +42,33 @@ h1 {
 .todo-input {
   outline: none;
   background: none;
-  border: 1px solid #999; /* Borde gris */
+  border: 1px solid #999; 
   padding: 0.5rem 1rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
   width: 300px;
-  color: #333; /* Texto gris oscuro */
+  color: #333; 
 }
 
 .todo-input::placeholder {
-  color: #999; /* Texto gris */
+  color: #999; 
 }
 
 .todo-btn {
-  background: #6eb5ff; /* Azul más oscuro */
-  color: #fff; /* Texto blanco */
+  background: #6eb5ff;
+  color: #fff;
   border: none;
   padding: 0.55rem 1rem;
   cursor: pointer;
 }
 
-/* Estilos para las tareas */
+
 .ToDo {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #6eb5ff; /* Azul más oscuro */
-  color: #fff; /* Texto blanco */
+  background: #6eb5ff; 
+  color: #fff; 
   padding: 0.75rem 1rem;
   border-radius: 5px;
   margin-bottom: 1rem;
@@ -79,12 +79,12 @@ h1 {
 }
 
 .incompleted {
-  color: #fff; /* Texto blanco */
+  color: #fff; 
   cursor: pointer;
 }
 
 .completed {
-  color: #ccc; /* Texto gris claro */
+  color: #ccc; 
   text-decoration: line-through;
   cursor: pointer;
 }
